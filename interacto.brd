@@ -1987,7 +1987,7 @@ design rules under a new name.</description>
 <elements>
 <element name="P6" library="con-lsta" package="FE05-2" value="" x="12.065" y="17.78" locked="yes" smashed="yes" rot="MR180">
 <attribute name="OC_NEWARK" value="unknown" x="12.065" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="" x="12.065" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="SSHQ-105-D-10-GT-LF " x="12.065" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="" x="12.065" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="12.065" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="9.525" y="14.351" size="0.635" layer="26" ratio="20" rot="MR180"/>
@@ -1995,7 +1995,7 @@ design rules under a new name.</description>
 </element>
 <element name="P9" library="BoneCapeParts" package="FE23-2" value="" x="43.815" y="3.175" locked="yes" smashed="yes" rot="MR180">
 <attribute name="OC_NEWARK" value="unknown" x="43.815" y="3.175" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="" x="43.815" y="3.175" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="SSHQ-123-D-10-GT-LF " x="43.815" y="3.175" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="" x="43.815" y="3.175" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="43.815" y="3.175" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="23.495" y="-0.254" size="0.635" layer="26" ratio="20" rot="MR180"/>
@@ -2003,7 +2003,7 @@ design rules under a new name.</description>
 </element>
 <element name="P8" library="BoneCapeParts" package="FE23-2" value="" x="43.815" y="51.435" locked="yes" smashed="yes" rot="MR180">
 <attribute name="OC_NEWARK" value="unknown" x="43.815" y="51.435" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="" x="43.815" y="51.435" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="SSHQ-123-D-10-GT-LF " x="43.815" y="51.435" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="" x="43.815" y="51.435" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="43.815" y="51.435" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="23.495" y="48.006" size="0.635" layer="26" ratio="20" rot="MR180"/>
@@ -2016,10 +2016,11 @@ design rules under a new name.</description>
 <element name="U$1" library="BoneCapeParts" package="SOIC8" value="" x="77.895" y="41.805" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="79.8" y="44.472" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="79.8" y="37.868" size="1.27" layer="28" rot="MR0"/>
+<attribute name="MPN" value="CAT24C256WI-GT3" x="77.895" y="41.805" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="S1" library="switch-dil" package="CTS-219-02" value="219-02" x="91.5368" y="46.9392" locked="yes" smashed="yes" rot="MR315">
 <attribute name="OC_NEWARK" value="unknown" x="91.5368" y="46.9392" size="1.778" layer="28" rot="MR315" display="off"/>
-<attribute name="MPN" value="" x="91.5368" y="46.9392" size="1.778" layer="28" rot="MR315" display="off"/>
+<attribute name="MPN" value="219-2MST" x="91.5368" y="46.9392" size="1.778" layer="28" rot="MR315" display="off"/>
 <attribute name="MF" value="" x="91.5368" y="46.9392" size="1.778" layer="28" rot="MR315" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="91.5368" y="46.9392" size="1.778" layer="28" rot="MR315" display="off"/>
 <attribute name="NAME" x="96.16128125" y="48.02814375" size="0.635" layer="26" ratio="20" rot="MR45"/>
@@ -2030,269 +2031,346 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="rcl" package="C0603" value="0.1u" x="81.3584" y="51.3952" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="82.6284" y="50.1252" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="81.3584" y="51.3952" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R3" library="rcl" package="R0603" value="5.6K, 5%" x="95.968" y="15.972" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="95.333" y="15.337" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="RK73B1JTTDD562J" x="95.968" y="15.972" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R7" library="rcl" package="R0603" value="4.75K" x="84.848" y="40.02" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="85.483" y="40.655" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="CR0603-FX-4751GLF" x="84.848" y="40.02" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R9" library="rcl" package="R0603" value="10K" x="88.2768" y="40.5944" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="87.6418" y="41.2294" size="0.635" layer="26" ratio="20" rot="MR270"/>
+<attribute name="MPN" value="WR06X1002FTL" x="88.2768" y="40.5944" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R1" library="rcl" package="R0603" value="5.6K, 5%" x="96.1536" y="18.4408" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="95.5186" y="17.8058" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="RK73B1JTTDD562J" x="96.1536" y="18.4408" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R2" library="rcl" package="R0603" value="4.75K" x="85.124" y="53.2" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="85.759" y="53.835" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="CR0603-FX-4751GLF" x="85.124" y="53.2" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R4" library="rcl" package="R0603" value="4.75K, DNI" x="78.5496" y="52.392" locked="yes" smashed="yes" rot="MR90">
 <attribute name="NAME" x="79.1846" y="51.757" size="0.635" layer="26" ratio="20" rot="MR90"/>
+<attribute name="MPN" value="CR0603-FX-4751GLF" x="78.5496" y="52.392" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R5" library="rcl" package="R0603" value="4.75K" x="81.4568" y="53.7712" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="80.8218" y="53.1362" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="CR0603-FX-4751GLF" x="81.4568" y="53.7712" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="U$3" library="BoneCapeParts" package="TCM8230MD" value="TCM8230MD" x="91.0648" y="27.1704" locked="yes" smashed="yes" rot="R180"/>
+<element name="U$3" library="BoneCapeParts" package="TCM8230MD" value="TCM8230MD" x="91.0648" y="27.1704" locked="yes" smashed="yes" rot="R180">
+<attribute name="MPN" value="TCM8230MD" x="91.0648" y="27.1704" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U$5" library="BoneCapeParts" package="LGA14" value="" x="41" y="39.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="36.428" y="37.341" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="38.968" y="41.913" size="0.4064" layer="28" rot="MR180"/>
+<attribute name="MPN" value="LSM303DLHC" x="41" y="39.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$7" library="BoneCapeParts" package="LGA28-4X5" value="" x="28.5" y="39.5" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="31" y="41.9" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="31" y="36.7" size="0.4" layer="28" rot="MR0"/>
+<attribute name="MPN" value="LSM330DLC" x="28.5" y="39.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$8" library="BoneCapeParts" package="LGA28" value="" x="32.5" y="22" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="30.3" y="25.735" size="0.635" layer="26" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="35.2" y="25" size="0.4064" layer="28" rot="MR270"/>
+<attribute name="MPN" value="LSM333D" x="32.5" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U$10" library="BoneCapeParts" package="SOT23-5" value="" x="10.1788" y="11.1948" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.3378" y="8.9088" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="11.1313" y="11.0043" size="0.4064" layer="28" rot="MR0"/>
+<attribute name="MPN" value="LP3985IM5-2.8/NOPB" x="10.1788" y="11.1948" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$12" library="BoneCapeParts" package="SOT23-5" value="" x="16.2748" y="11.1092" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="17.1638" y="13.2682" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="17.2273" y="10.9187" size="0.4064" layer="28" rot="MR0"/>
+<attribute name="MPN" value="TPS79915DDCR" x="16.2748" y="11.1092" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$13" library="BoneCapeParts" package="TSSOP48" value="" x="67.5" y="27.5" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="66.5475" y="28.3001" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="67.2521" y="12.4497" size="1.778" layer="28" ratio="10" rot="MR0"/>
+<attribute name="MPN" value="SN74LVCH16T245DGGR" x="67.5" y="27.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C2" library="rcl" package="C0603" value="0.1u" x="95.4956" y="37.9452" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="94.8606" y="37.3102" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="95.4956" y="37.9452" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C3" library="rcl" package="C0603" value="0.1u" x="98.6216" y="37.4288" locked="yes" smashed="yes" rot="MR90">
 <attribute name="NAME" x="99.2566" y="36.7938" size="0.635" layer="26" ratio="20" rot="MR90"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="98.6216" y="37.4288" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R6" library="rcl" package="R0402" value="" x="74.5" y="30.5" locked="yes" smashed="yes" rot="MR0">
+<element name="R6" library="rcl" package="R0402" value="33" x="74.5" y="30.5" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="75.135" y="31.135" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="75.135" y="28.595" size="1.27" layer="28" rot="MR0"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="30.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R8" library="rcl" package="R0402" value="" x="74.5" y="29" locked="yes" smashed="yes" rot="MR0">
+<element name="R8" library="rcl" package="R0402" value="33" x="74.5" y="29" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="75.135" y="29.635" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="75.135" y="27.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R10" library="rcl" package="R0402" value="" x="74.5" y="27.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R10" library="rcl" package="R0402" value="33" x="74.5" y="27.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="26.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="29.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="27.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R11" library="rcl" package="R0402" value="" x="74.5" y="26" locked="yes" smashed="yes" rot="MR180">
+<element name="R11" library="rcl" package="R0402" value="33" x="74.5" y="26" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="25.365" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="27.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="26" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R12" library="rcl" package="R0402" value="" x="74.5" y="24.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R12" library="rcl" package="R0402" value="33" x="74.5" y="24.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="23.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="26.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="24.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R13" library="rcl" package="R0402" value="" x="74.5" y="23" locked="yes" smashed="yes" rot="MR180">
+<element name="R13" library="rcl" package="R0402" value="33" x="74.5" y="23" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="22.365" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="24.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="23" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R14" library="rcl" package="R0402" value="" x="74.5" y="21.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R14" library="rcl" package="R0402" value="33" x="74.5" y="21.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="20.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="23.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="21.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R15" library="rcl" package="R0402" value="" x="74.5" y="20" locked="yes" smashed="yes" rot="MR0">
+<element name="R15" library="rcl" package="R0402" value="33" x="74.5" y="20" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="75.135" y="20.635" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="75.135" y="18.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R16" library="rcl" package="R0402" value="" x="74.5" y="18.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R16" library="rcl" package="R0402" value="33" x="74.5" y="18.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="17.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="20.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R17" library="rcl" package="R0402" value="" x="74.5" y="17" locked="yes" smashed="yes" rot="MR180">
+<element name="R17" library="rcl" package="R0402" value="33" x="74.5" y="17" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="16.365" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="18.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="17" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R18" library="rcl" package="R0402" value="" x="74.5" y="15.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R18" library="rcl" package="R0402" value="33" x="74.5" y="15.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="14.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="17.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="15.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R19" library="rcl" package="R0402" value="" x="74.5" y="14" locked="yes" smashed="yes" rot="MR180">
+<element name="R19" library="rcl" package="R0402" value="33" x="74.5" y="14" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.865" y="13.365" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="73.865" y="15.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="74.5" y="14" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R20" library="rcl" package="R0402" value="" x="50" y="30.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R20" library="rcl" package="R0402" value="33" x="50" y="30.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="48.73" y="31.77" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="32.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="30.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R21" library="rcl" package="R0402" value="" x="50" y="29" locked="yes" smashed="yes" rot="MR0">
+<element name="R21" library="rcl" package="R0402" value="33" x="50" y="29" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="52.54" y="28.365" size="0.635" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="50.635" y="27.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R22" library="rcl" package="R0402" value="" x="50" y="27.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R22" library="rcl" package="R0402" value="33" x="50" y="27.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="47.46" y="27.5" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="29.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="27.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R23" library="rcl" package="R0402" value="" x="50" y="26" locked="yes" smashed="yes" rot="MR180">
+<element name="R23" library="rcl" package="R0402" value="33" x="50" y="26" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="47.46" y="26.635" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="27.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="26" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R24" library="rcl" package="R0402" value="" x="50" y="24.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R24" library="rcl" package="R0402" value="33" x="50" y="24.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="25.135" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="26.405" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R25" library="rcl" package="R0402" value="" x="50" y="23" locked="yes" smashed="yes" rot="MR180">
+<element name="R25" library="rcl" package="R0402" value="33" x="50" y="23" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="23" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="24.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="23" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R26" library="rcl" package="R0402" value="" x="50" y="17" locked="yes" smashed="yes" rot="MR180">
+<element name="R26" library="rcl" package="R0402" value="33" x="50" y="17" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="17" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="18.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="17" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R27" library="rcl" package="R0402" value="" x="50" y="21.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R27" library="rcl" package="R0402" value="33" x="50" y="21.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="21.5" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="23.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="21.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R28" library="rcl" package="R0402" value="" x="50" y="20" locked="yes" smashed="yes" rot="MR180">
+<element name="R28" library="rcl" package="R0402" value="33" x="50" y="20" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="20" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="21.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="20" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R29" library="rcl" package="R0402" value="" x="50" y="18.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R29" library="rcl" package="R0402" value="33" x="50" y="18.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="18.5" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="20.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R30" library="rcl" package="R0402" value="" x="50" y="15.5" locked="yes" smashed="yes" rot="MR180">
+<element name="R30" library="rcl" package="R0402" value="33" x="50" y="15.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="15.5" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="17.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="15.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R31" library="rcl" package="R0402" value="" x="50" y="14" locked="yes" smashed="yes" rot="MR180">
+<element name="R31" library="rcl" package="R0402" value="33" x="50" y="14" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="14" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="49.365" y="15.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="50" y="14" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C4" library="rcl" package="C0603" value="10u" x="39" y="43.5" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="39.635" y="44.135" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="LMK107BBJ106MALT" x="39" y="43.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C5" library="rcl" package="C0603" value="4.7u" x="40" y="35.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="39.365" y="34.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="GRM188F51A475ZE20J" x="40" y="35.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C6" library="rcl" package="C0603" value="0.1u" x="44" y="35.5" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="44.635" y="36.135" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="44" y="35.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C7" library="rcl" package="C0603" value="0.22u" x="43" y="43.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="42.365" y="42.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="VJ0603V224MXJPW1BC" x="43" y="43.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C8" library="rcl" package="C0603" value="10u" x="32.5" y="16" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="33.135" y="16.635" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="LMK107BBJ106MALT" x="32.5" y="16" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C9" library="rcl" package="C0603" value="0.1u" x="27.5" y="23" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="26.865" y="23.635" size="0.635" layer="26" ratio="20" rot="MR270"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="27.5" y="23" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C10" library="rcl" package="C0603" value="0.1u" x="27.5" y="19" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="26.865" y="19.635" size="0.635" layer="26" ratio="20" rot="MR270"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="27.5" y="19" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C11" library="rcl" package="C0603" value="0.22u" x="37.5" y="20" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="38.77" y="20.635" size="0.635" layer="26" ratio="20" rot="MR270"/>
+<attribute name="MPN" value="VJ0603V224MXJPW1BC" x="37.5" y="20" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C12" library="rcl" package="C0603" value="4.7u" x="37.5" y="24" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="36.865" y="24.635" size="0.635" layer="26" ratio="20" rot="MR270"/>
+<attribute name="MPN" value="GRM188F51A475ZE20J" x="37.5" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C13" library="rcl" package="C0603" value="10u" x="29.5" y="44.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="28.865" y="43.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="LMK107BBJ106MALT" x="29.5" y="44.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C14" library="rcl" package="C0603" value="0.1u" x="22.5" y="39.5" locked="yes" smashed="yes" rot="MR90">
 <attribute name="NAME" x="23.135" y="38.865" size="0.635" layer="26" ratio="20" rot="MR90"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="22.5" y="39.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C15" library="rcl" package="C0603" value="0.1u" x="26.5" y="34.5" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="27.135" y="35.135" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="26.5" y="34.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C16" library="rcl" package="C0603" value="10n" x="30.5" y="34.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="29.865" y="33.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="VJ0603Y103KXACW1BC" x="30.5" y="34.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C17" library="rcl" package="C0603" value="1u" x="9.6256" y="13.2032" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.2606" y="12.5682" size="0.635" layer="25" ratio="20" rot="R180"/>
+<attribute name="MPN" value="C1608X7R1C105K" x="9.6256" y="13.2032" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C18" library="rcl" package="C0603" value="10n" x="16.1496" y="9.0412" locked="yes" smashed="yes">
 <attribute name="NAME" x="15.5146" y="9.6762" size="0.635" layer="25" ratio="20"/>
+<attribute name="MPN" value="VJ0603Y103KXACW1BC" x="16.1496" y="9.0412" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C19" library="rcl" package="C0603" value="1u" x="6.6644" y="11.6792" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="6.0294" y="12.3142" size="0.635" layer="26" ratio="20" rot="MR270"/>
+<attribute name="MPN" value="C1608X7R1C105K" x="6.6644" y="11.6792" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C20" library="rcl" package="C0603" value="1u" x="16.1016" y="13.1188" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.7366" y="14.3888" size="0.635" layer="25" ratio="20" rot="R180"/>
+<attribute name="MPN" value="C1608X7R1C105K" x="16.1016" y="13.1188" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C21" library="rcl" package="C0603" value="10n" x="12.8332" y="12.6792" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.4682" y="13.3142" size="0.635" layer="25" ratio="20" rot="R270"/>
+<attribute name="MPN" value="VJ0603Y103KXACW1BC" x="12.8332" y="12.6792" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C22" library="rcl" package="C0603" value="2.2u" x="10.1016" y="8.8724" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.0066" y="8.2374" size="0.635" layer="25" ratio="20" rot="R180"/>
+<attribute name="MPN" value="C1608Y5V1C225Z" x="10.1016" y="8.8724" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R32" library="rcl" package="R0402" value="10K" x="50" y="12.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50.635" y="12.5" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="WR06X1002FTL" x="50" y="12.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="LED1" library="led" package="CHIPLED_0603" value="" x="2" y="9" locked="yes" smashed="yes">
+<element name="LED1" library="led" package="CHIPLED_0603" value="blue" x="2" y="9" locked="yes" smashed="yes">
 <attribute name="NAME" x="1.365" y="7.73" size="0.635" layer="25" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="3.905" y="7.73" size="1.27" layer="27" rot="R90"/>
+<attribute name="MPN" value="HT-193NB-5589" x="2" y="9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R33" library="rcl" package="R0603" value="4.75K" x="2" y="9" locked="yes" smashed="yes" rot="MR90">
+<element name="R33" library="rcl" package="R0603" value="150" x="2" y="9" locked="yes" smashed="yes" rot="MR90">
 <attribute name="NAME" x="2.635" y="8.365" size="0.635" layer="26" ratio="20" rot="MR90"/>
+<attribute name="MPN" value="302-150-RC" x="2" y="9" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="LED2" library="led" package="CHIPLED_0603" value="" x="2" y="16" locked="yes" smashed="yes" rot="R180">
+<element name="LED2" library="led" package="CHIPLED_0603" value="green" x="2" y="16" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="0.73" y="17.27" size="0.635" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="0.095" y="17.27" size="1.27" layer="27" rot="R270"/>
+<attribute name="MPN" value="LG Q971-KN-1" x="2" y="16" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R34" library="rcl" package="R0603" value="4.75K" x="2" y="16" locked="yes" smashed="yes" rot="MR270">
+<element name="R34" library="rcl" package="R0603" value="50" x="2" y="16" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="1.365" y="16.635" size="0.635" layer="26" ratio="20" rot="MR270"/>
+<attribute name="MPN" value="302-49.9-RC" x="2" y="16" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="LED3" library="led" package="CHIPLED_0603" value="" x="99" y="19" locked="yes" smashed="yes">
+<element name="LED3" library="led" package="CHIPLED_0603" value="green" x="99" y="19" locked="yes" smashed="yes">
 <attribute name="NAME" x="98.365" y="18.365" size="0.635" layer="25" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="100.905" y="17.73" size="1.27" layer="27" rot="R90"/>
+<attribute name="MPN" value="LG Q971-KN-1" x="99" y="19" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R35" library="rcl" package="R0603" value="4.75K" x="99" y="19" locked="yes" smashed="yes" rot="MR90">
+<element name="R35" library="rcl" package="R0603" value="50" x="99" y="19" locked="yes" smashed="yes" rot="MR90">
 <attribute name="NAME" x="99.635" y="18.365" size="0.635" layer="26" ratio="20" rot="MR90"/>
+<attribute name="MPN" value="302-49.9-RC" x="99" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C23" library="rcl" package="C0603" value="0.1u" x="60.5" y="32" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="61.135" y="32.635" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="60.5" y="32" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C24" library="rcl" package="C0603" value="0.1u" x="64.5" y="32" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="63.865" y="31.365" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="64.5" y="32" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C25" library="rcl" package="C0603" value="0.1u" x="64.5" y="10.5" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="65.135" y="11.135" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="64.5" y="10.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C26" library="rcl" package="C0603" value="0.1u" x="60.5" y="10.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="59.865" y="9.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="60.5" y="10.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$4" library="BoneCapeParts" package="SOT23-6" value="" x="91.5" y="11.5" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="89.341" y="12.3255" size="0.635" layer="26" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="91.6905" y="12.4525" size="0.4064" layer="28" rot="MR270"/>
+<attribute name="MPN" value="SN74LVC1T45DBVR" x="91.5" y="11.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C27" library="rcl" package="C0603" value="0.1u" x="91.5" y="15.5" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="90.865" y="14.865" size="0.635" layer="26" ratio="20" rot="MR180"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="91.5" y="15.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R36" library="rcl" package="R0402" value="" x="95.4144" y="40.264" locked="yes" smashed="yes" rot="MR180">
+<element name="R36" library="rcl" package="R0402" value="10K" x="95.4144" y="40.264" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="94.7794" y="39.629" size="0.635" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="94.7794" y="42.169" size="1.27" layer="28" rot="MR180"/>
+<attribute name="MPN" value="WR06X1002FTL" x="95.4144" y="40.264" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R37" library="rcl" package="R0402" value="" x="95.5" y="11.5" locked="yes" smashed="yes" rot="MR270">
+<element name="R37" library="rcl" package="R0402" value="33" x="95.5" y="11.5" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="94.865" y="12.135" size="0.635" layer="26" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="97.405" y="12.135" size="1.27" layer="28" rot="MR270"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="95.5" y="11.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R38" library="rcl" package="R0402" value="" x="92.5" y="6.5" locked="yes" smashed="yes" rot="MR90">
+<element name="R38" library="rcl" package="R0402" value="33" x="92.5" y="6.5" locked="yes" smashed="yes" rot="MR90">
 <attribute name="NAME" x="93.135" y="5.865" size="0.635" layer="26" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="90.595" y="5.865" size="1.27" layer="28" rot="MR90"/>
+<attribute name="MPN" value="CR0402-JW-330GLF" x="92.5" y="6.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C28" library="rcl" package="C0603" value="0.1u" x="89.5" y="6.5" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.135" y="7.135" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC" x="89.5" y="6.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 </elements>
 <signals>

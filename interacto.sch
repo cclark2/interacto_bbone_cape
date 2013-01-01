@@ -9651,14 +9651,22 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="P6" library="con-lsta" deviceset="FE05-2" device=""/>
-<part name="P9" library="BoneCapeParts" deviceset="FE23-2" device=""/>
-<part name="P8" library="BoneCapeParts" deviceset="FE23-2" device=""/>
+<part name="P6" library="con-lsta" deviceset="FE05-2" device="">
+<attribute name="MPN" value="SSHQ-105-D-10-GT-LF "/>
+</part>
+<part name="P9" library="BoneCapeParts" deviceset="FE23-2" device="">
+<attribute name="MPN" value="SSHQ-123-D-10-GT-LF "/>
+</part>
+<part name="P8" library="BoneCapeParts" deviceset="FE23-2" device="">
+<attribute name="MPN" value="SSHQ-123-D-10-GT-LF "/>
+</part>
 <part name="H1" library="BoneCapeParts" deviceset="HOLE" device=""/>
 <part name="H2" library="BoneCapeParts" deviceset="HOLE" device=""/>
 <part name="H3" library="BoneCapeParts" deviceset="HOLE" device=""/>
 <part name="H4" library="BoneCapeParts" deviceset="HOLE" device=""/>
-<part name="U$1" library="BoneCapeParts" deviceset="CAT24C256" device=""/>
+<part name="U$1" library="BoneCapeParts" deviceset="CAT24C256" device="">
+<attribute name="MPN" value="CAT24C256WI-GT3"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -9667,60 +9675,142 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="U$2" library="SparkFun" deviceset="1.8V" device=""/>
-<part name="S1" library="switch-dil" deviceset="219-02*" device=""/>
+<part name="S1" library="switch-dil" deviceset="219-02*" device="">
+<attribute name="MPN" value="219-2MST"/>
+</part>
 <part name="TP1" library="testpad" deviceset="TP" device="B2,54"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="5.6K, 5%"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="5.6K, 5%"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="4.75K, DNI"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="5.6K, 5%">
+<attribute name="MPN" value="RK73B1JTTDD562J"/>
+</part>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="4.75K">
+<attribute name="MPN" value="CR0603-FX-4751GLF"/>
+</part>
+<part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="10K">
+<attribute name="MPN" value="WR06X1002FTL"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="5.6K, 5%">
+<attribute name="MPN" value="RK73B1JTTDD562J"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="4.75K">
+<attribute name="MPN" value="CR0603-FX-4751GLF"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="4.75K, DNI">
+<attribute name="MPN" value="CR0603-FX-4751GLF"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="4.75K">
+<attribute name="MPN" value="CR0603-FX-4751GLF"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="U$3" library="BoneCapeParts" deviceset="TCM8230MD" device=""/>
-<part name="U$5" library="BoneCapeParts" deviceset="LSM303DLHC" device=""/>
-<part name="U$7" library="BoneCapeParts" deviceset="LSM330DLC" device=""/>
-<part name="U$8" library="BoneCapeParts" deviceset="LSM333D" device=""/>
+<part name="U$3" library="BoneCapeParts" deviceset="TCM8230MD" device="">
+<attribute name="MPN" value="TCM8230MD"/>
+</part>
+<part name="U$5" library="BoneCapeParts" deviceset="LSM303DLHC" device="">
+<attribute name="MPN" value="LSM303DLHC"/>
+</part>
+<part name="U$7" library="BoneCapeParts" deviceset="LSM330DLC" device="">
+<attribute name="MPN" value="LSM330DLC"/>
+</part>
+<part name="U$8" library="BoneCapeParts" deviceset="LSM333D" device="">
+<attribute name="MPN" value="LSM333D"/>
+</part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U$10" library="BoneCapeParts" deviceset="LP3985" device=""/>
-<part name="U$12" library="BoneCapeParts" deviceset="TPS799XX" device=""/>
-<part name="U$13" library="BoneCapeParts" deviceset="SN74LVCH16T245" device=""/>
+<part name="U$10" library="BoneCapeParts" deviceset="LP3985" device="">
+<attribute name="MPN" value="LP3985IM5-2.8/NOPB"/>
+</part>
+<part name="U$12" library="BoneCapeParts" deviceset="TPS799XX" device="">
+<attribute name="MPN" value="TPS79915DDCR"/>
+</part>
+<part name="U$13" library="BoneCapeParts" deviceset="SN74LVCH16T245" device="">
+<attribute name="MPN" value="SN74LVCH16T245DGGR"/>
+</part>
 <part name="U$14" library="SparkFun" deviceset="1.5V" device=""/>
 <part name="U$15" library="SparkFun" deviceset="2.85V" device="" value="2.8V"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="U$16" library="SparkFun" deviceset="2.85V" device="" value="2.8V"/>
 <part name="U$17" library="SparkFun" deviceset="1.5V" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
 <part name="FRAME2" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R17" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R19" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R20" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R25" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R26" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R27" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R28" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R29" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R30" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R31" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R12" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R14" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R15" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R16" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R17" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R18" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R19" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R20" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R21" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R22" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R24" library="rcl" deviceset="R-US_" device="R0402" value="33"/>
+<part name="R25" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R26" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R27" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R28" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R29" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R30" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R31" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$18" library="SparkFun" deviceset="2.85V" device="" value="2.8V"/>
@@ -9730,66 +9820,138 @@ Source: www.kingbright.com</description>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="10u"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="0.22u"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="10u">
+<attribute name="MPN" value="LMK107BBJ106MALT"/>
+</part>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="4.7u">
+<attribute name="MPN" value="GRM188F51A475ZE20J"/>
+</part>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="0.22u">
+<attribute name="MPN" value="VJ0603V224MXJPW1BC"/>
+</part>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="10u"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="0.22u"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="10u">
+<attribute name="MPN" value="LMK107BBJ106MALT"/>
+</part>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="0.22u">
+<attribute name="MPN" value="VJ0603V224MXJPW1BC"/>
+</part>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="4.7u">
+<attribute name="MPN" value="GRM188F51A475ZE20J"/>
+</part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="10u"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="10u">
+<attribute name="MPN" value="LMK107BBJ106MALT"/>
+</part>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="10n">
+<attribute name="MPN" value="VJ0603Y103KXACW1BC"/>
+</part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="MPN" value="C1608X7R1C105K"/>
+</part>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="10n">
+<attribute name="MPN" value="VJ0603Y103KXACW1BC"/>
+</part>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="MPN" value="C1608X7R1C105K"/>
+</part>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="2.2u"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="MPN" value="C1608X7R1C105K"/>
+</part>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="10n">
+<attribute name="MPN" value="VJ0603Y103KXACW1BC"/>
+</part>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="2.2u">
+<attribute name="MPN" value="C1608Y5V1C225Z"/>
+</part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="R32" library="rcl" deviceset="R-US_" device="R0402" value="10K"/>
+<part name="R32" library="rcl" deviceset="R-US_" device="R0402" value="10K">
+<attribute name="MPN" value="WR06X1002FTL"/>
+</part>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIPLED_0603"/>
-<part name="R33" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIPLED_0603" value="blue">
+<attribute name="MPN" value="HT-193NB-5589"/>
+</part>
+<part name="R33" library="rcl" deviceset="R-US_" device="R0603" value="150">
+<attribute name="MPN" value="302-150-RC"/>
+</part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603"/>
-<part name="R34" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="MPN" value="LG Q971-KN-1"/>
+</part>
+<part name="R34" library="rcl" deviceset="R-US_" device="R0603" value="50">
+<attribute name="MPN" value="302-49.9-RC"/>
+</part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
-<part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603"/>
-<part name="R35" library="rcl" deviceset="R-US_" device="R0603" value="4.75K"/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="U$4" library="BoneCapeParts" deviceset="SN74LVC1T45" device=""/>
+<part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="MPN" value="LG Q971-KN-1"/>
+</part>
+<part name="R35" library="rcl" deviceset="R-US_" device="R0603" value="50">
+<attribute name="MPN" value="302-49.9-RC"/>
+</part>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="U$4" library="BoneCapeParts" deviceset="SN74LVC1T45" device="">
+<attribute name="MPN" value="SN74LVC1T45DBVR"/>
+</part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="U$6" library="SparkFun" deviceset="2.85V" device="" value="2.8V"/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="R36" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
+<part name="R36" library="rcl" deviceset="R-US_" device="R0402" value="10K">
+<attribute name="MPN" value="WR06X1002FTL"/>
+</part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R37" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R38" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="R37" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="R38" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<attribute name="MPN" value="CR0402-JW-330GLF"/>
+</part>
+<part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="355.6" y="30.48" size="5.08" layer="97" font="vector" ratio="16">Cape Name</text>
+<text x="355.6" y="30.48" size="5.08" layer="97" font="vector" ratio="16">Interacto</text>
 <text x="142.24" y="5.08" size="1.778" layer="97">0x54
 0x55
 0x56
@@ -9810,7 +9972,9 @@ Source: www.kingbright.com</description>
 <instance part="H2" gate="G$1" x="20.32" y="25.4" rot="R180"/>
 <instance part="H3" gate="G$1" x="20.32" y="17.78" rot="R180"/>
 <instance part="H4" gate="G$1" x="20.32" y="10.16" rot="R180"/>
-<instance part="U$1" gate="G$1" x="116.84" y="22.86"/>
+<instance part="U$1" gate="G$1" x="116.84" y="22.86">
+<attribute name="MPN" x="116.84" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="17.78" y="203.2" rot="R270"/>
 <instance part="+3V1" gate="G$1" x="33.02" y="132.08"/>
 <instance part="P+1" gate="1" x="17.78" y="144.78"/>
@@ -9821,59 +9985,139 @@ Source: www.kingbright.com</description>
 <instance part="U$2" gate="G$1" x="76.2" y="83.82"/>
 <instance part="S1" gate="G$1" x="81.28" y="27.94" rot="R270"/>
 <instance part="TP1" gate="G$1" x="132.08" y="10.16" rot="R180"/>
-<instance part="C1" gate="G$1" x="109.22" y="43.18"/>
-<instance part="R3" gate="G$1" x="139.7" y="38.1" rot="R90"/>
-<instance part="R7" gate="G$1" x="91.44" y="38.1" rot="R90"/>
-<instance part="R9" gate="G$1" x="132.08" y="38.1" rot="R90"/>
-<instance part="R1" gate="G$1" x="144.78" y="38.1" rot="R90"/>
-<instance part="R2" gate="G$1" x="96.52" y="38.1" rot="R90"/>
-<instance part="R4" gate="G$1" x="96.52" y="17.78" rot="R90"/>
-<instance part="R5" gate="G$1" x="101.6" y="38.1" rot="R90"/>
+<instance part="C1" gate="G$1" x="109.22" y="43.18">
+<attribute name="MPN" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="139.7" y="38.1" rot="R90">
+<attribute name="MPN" x="139.7" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="91.44" y="38.1" rot="R90">
+<attribute name="MPN" x="91.44" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="132.08" y="38.1" rot="R90">
+<attribute name="MPN" x="132.08" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="144.78" y="38.1" rot="R90">
+<attribute name="MPN" x="144.78" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="96.52" y="38.1" rot="R90">
+<attribute name="MPN" x="96.52" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="96.52" y="17.78" rot="R90">
+<attribute name="MPN" x="96.52" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="101.6" y="38.1" rot="R90">
+<attribute name="MPN" x="101.6" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="71.12" y="7.62"/>
 <instance part="+3V2" gate="G$1" x="96.52" y="50.8"/>
 <instance part="+3V3" gate="G$1" x="139.7" y="50.8"/>
 <instance part="GND5" gate="1" x="116.84" y="35.56"/>
-<instance part="U$3" gate="G$1" x="381" y="205.74" rot="MR0"/>
-<instance part="U$5" gate="G$1" x="114.3" y="134.62"/>
-<instance part="U$7" gate="G$1" x="210.82" y="114.3"/>
-<instance part="U$8" gate="G$1" x="236.22" y="45.72"/>
+<instance part="U$3" gate="G$1" x="381" y="205.74" rot="MR0">
+<attribute name="MPN" x="381" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="U$5" gate="G$1" x="114.3" y="134.62">
+<attribute name="MPN" x="114.3" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$7" gate="G$1" x="210.82" y="114.3">
+<attribute name="MPN" x="210.82" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$8" gate="G$1" x="236.22" y="45.72">
+<attribute name="MPN" x="236.22" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="30.48" y="5.08"/>
-<instance part="U$10" gate="1" x="160.02" y="256.54"/>
-<instance part="U$12" gate="1" x="238.76" y="251.46"/>
-<instance part="U$13" gate="1" x="309.88" y="175.26"/>
+<instance part="U$10" gate="1" x="160.02" y="256.54">
+<attribute name="MPN" x="160.02" y="256.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$12" gate="1" x="238.76" y="251.46">
+<attribute name="MPN" x="238.76" y="251.46" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$13" gate="1" x="309.88" y="175.26">
+<attribute name="MPN" x="309.88" y="175.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$14" gate="G$1" x="256.54" y="264.16"/>
 <instance part="U$15" gate="G$1" x="180.34" y="266.7"/>
-<instance part="C2" gate="G$1" x="386.08" y="172.72"/>
+<instance part="C2" gate="G$1" x="386.08" y="172.72">
+<attribute name="MPN" x="386.08" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="378.46" y="162.56" rot="MR0"/>
 <instance part="U$16" gate="G$1" x="401.32" y="177.8" rot="MR0"/>
 <instance part="U$17" gate="G$1" x="396.24" y="182.88" rot="MR0"/>
-<instance part="C3" gate="G$1" x="393.7" y="170.18"/>
+<instance part="C3" gate="G$1" x="393.7" y="170.18">
+<attribute name="MPN" x="393.7" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="325.12" y="2.54"/>
-<instance part="R6" gate="G$1" x="340.36" y="213.36"/>
-<instance part="R8" gate="G$1" x="340.36" y="210.82"/>
-<instance part="R10" gate="G$1" x="340.36" y="208.28"/>
-<instance part="R11" gate="G$1" x="340.36" y="205.74"/>
-<instance part="R12" gate="G$1" x="340.36" y="203.2"/>
-<instance part="R13" gate="G$1" x="340.36" y="200.66"/>
-<instance part="R14" gate="G$1" x="340.36" y="198.12"/>
-<instance part="R15" gate="G$1" x="340.36" y="195.58"/>
-<instance part="R16" gate="G$1" x="340.36" y="190.5"/>
-<instance part="R17" gate="G$1" x="340.36" y="187.96"/>
-<instance part="R18" gate="G$1" x="340.36" y="185.42"/>
-<instance part="R19" gate="G$1" x="340.36" y="182.88"/>
-<instance part="R20" gate="G$1" x="281.94" y="213.36"/>
-<instance part="R21" gate="G$1" x="281.94" y="210.82"/>
-<instance part="R22" gate="G$1" x="281.94" y="208.28"/>
-<instance part="R23" gate="G$1" x="281.94" y="205.74"/>
+<instance part="R6" gate="G$1" x="340.36" y="213.36">
+<attribute name="MPN" x="340.36" y="213.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="340.36" y="210.82">
+<attribute name="MPN" x="340.36" y="210.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="340.36" y="208.28">
+<attribute name="MPN" x="340.36" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="340.36" y="205.74">
+<attribute name="MPN" x="340.36" y="205.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="340.36" y="203.2">
+<attribute name="MPN" x="340.36" y="203.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R13" gate="G$1" x="340.36" y="200.66">
+<attribute name="MPN" x="340.36" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="340.36" y="198.12">
+<attribute name="MPN" x="340.36" y="198.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="340.36" y="195.58">
+<attribute name="MPN" x="340.36" y="195.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R16" gate="G$1" x="340.36" y="190.5">
+<attribute name="MPN" x="340.36" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R17" gate="G$1" x="340.36" y="187.96">
+<attribute name="MPN" x="340.36" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="340.36" y="185.42">
+<attribute name="MPN" x="340.36" y="185.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R19" gate="G$1" x="340.36" y="182.88">
+<attribute name="MPN" x="340.36" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R20" gate="G$1" x="281.94" y="213.36">
+<attribute name="MPN" x="281.94" y="213.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R21" gate="G$1" x="281.94" y="210.82">
+<attribute name="MPN" x="281.94" y="210.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R22" gate="G$1" x="281.94" y="208.28">
+<attribute name="MPN" x="281.94" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R23" gate="G$1" x="281.94" y="205.74">
+<attribute name="MPN" x="281.94" y="205.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R24" gate="G$1" x="281.94" y="203.2"/>
-<instance part="R25" gate="G$1" x="281.94" y="200.66"/>
-<instance part="R26" gate="G$1" x="281.94" y="198.12"/>
-<instance part="R27" gate="G$1" x="281.94" y="195.58"/>
-<instance part="R28" gate="G$1" x="281.94" y="190.5"/>
-<instance part="R29" gate="G$1" x="281.94" y="187.96"/>
-<instance part="R30" gate="G$1" x="281.94" y="185.42"/>
-<instance part="R31" gate="G$1" x="281.94" y="182.88"/>
+<instance part="R25" gate="G$1" x="281.94" y="200.66">
+<attribute name="MPN" x="281.94" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R26" gate="G$1" x="281.94" y="198.12">
+<attribute name="MPN" x="281.94" y="198.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R27" gate="G$1" x="281.94" y="195.58">
+<attribute name="MPN" x="281.94" y="195.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R28" gate="G$1" x="281.94" y="190.5">
+<attribute name="MPN" x="281.94" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R29" gate="G$1" x="281.94" y="187.96">
+<attribute name="MPN" x="281.94" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R30" gate="G$1" x="281.94" y="185.42">
+<attribute name="MPN" x="281.94" y="185.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R31" gate="G$1" x="281.94" y="182.88">
+<attribute name="MPN" x="281.94" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND8" gate="1" x="332.74" y="132.08"/>
 <instance part="+3V4" gate="G$1" x="340.36" y="172.72"/>
 <instance part="U$18" gate="G$1" x="347.98" y="170.18" rot="MR0"/>
@@ -9883,61 +10127,133 @@ Source: www.kingbright.com</description>
 <instance part="+3V6" gate="G$1" x="208.28" y="71.12"/>
 <instance part="GND12" gate="1" x="185.42" y="93.98"/>
 <instance part="+3V7" gate="G$1" x="185.42" y="144.78"/>
-<instance part="C4" gate="G$1" x="160.02" y="142.24"/>
-<instance part="C5" gate="G$1" x="152.4" y="124.46"/>
-<instance part="C6" gate="G$1" x="154.94" y="142.24"/>
-<instance part="C7" gate="G$1" x="139.7" y="124.46"/>
+<instance part="C4" gate="G$1" x="160.02" y="142.24">
+<attribute name="MPN" x="160.02" y="142.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="152.4" y="124.46">
+<attribute name="MPN" x="152.4" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="154.94" y="142.24">
+<attribute name="MPN" x="154.94" y="142.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="139.7" y="124.46">
+<attribute name="MPN" x="139.7" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V8" gate="G$1" x="137.16" y="154.94"/>
 <instance part="GND13" gate="1" x="144.78" y="114.3"/>
-<instance part="C8" gate="G$1" x="271.78" y="58.42"/>
-<instance part="C9" gate="G$1" x="279.4" y="58.42"/>
-<instance part="C10" gate="G$1" x="287.02" y="58.42"/>
-<instance part="C11" gate="G$1" x="274.32" y="22.86"/>
-<instance part="C12" gate="G$1" x="281.94" y="25.4"/>
+<instance part="C8" gate="G$1" x="271.78" y="58.42">
+<attribute name="MPN" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="279.4" y="58.42">
+<attribute name="MPN" x="279.4" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="287.02" y="58.42">
+<attribute name="MPN" x="287.02" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="274.32" y="22.86">
+<attribute name="MPN" x="274.32" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="281.94" y="25.4">
+<attribute name="MPN" x="281.94" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V9" gate="G$1" x="238.76" y="144.78"/>
 <instance part="GND14" gate="1" x="238.76" y="76.2"/>
-<instance part="C13" gate="G$1" x="246.38" y="121.92"/>
-<instance part="C14" gate="G$1" x="254" y="121.92"/>
-<instance part="C15" gate="G$1" x="261.62" y="121.92"/>
-<instance part="C16" gate="G$1" x="248.92" y="88.9"/>
+<instance part="C13" gate="G$1" x="246.38" y="121.92">
+<attribute name="MPN" x="246.38" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="254" y="121.92">
+<attribute name="MPN" x="254" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="261.62" y="121.92">
+<attribute name="MPN" x="261.62" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C16" gate="G$1" x="248.92" y="88.9">
+<attribute name="MPN" x="248.92" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND15" gate="1" x="292.1" y="134.62"/>
 <instance part="GND17" gate="1" x="160.02" y="236.22"/>
-<instance part="C17" gate="G$1" x="134.62" y="259.08"/>
-<instance part="C18" gate="G$1" x="180.34" y="254"/>
-<instance part="C19" gate="G$1" x="187.96" y="259.08"/>
+<instance part="C17" gate="G$1" x="134.62" y="259.08">
+<attribute name="MPN" x="134.62" y="259.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C18" gate="G$1" x="180.34" y="254">
+<attribute name="MPN" x="180.34" y="254" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C19" gate="G$1" x="187.96" y="259.08">
+<attribute name="MPN" x="187.96" y="259.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V10" gate="G$1" x="139.7" y="269.24"/>
-<instance part="C20" gate="G$1" x="220.98" y="248.92"/>
-<instance part="C21" gate="G$1" x="256.54" y="248.92"/>
-<instance part="C22" gate="G$1" x="266.7" y="254"/>
+<instance part="C20" gate="G$1" x="220.98" y="248.92">
+<attribute name="MPN" x="220.98" y="248.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C21" gate="G$1" x="256.54" y="248.92">
+<attribute name="MPN" x="256.54" y="248.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C22" gate="G$1" x="266.7" y="254">
+<attribute name="MPN" x="266.7" y="254" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND18" gate="1" x="238.76" y="228.6"/>
 <instance part="+3V11" gate="G$1" x="220.98" y="264.16"/>
-<instance part="R32" gate="G$1" x="281.94" y="165.1" rot="R90"/>
+<instance part="R32" gate="G$1" x="281.94" y="165.1" rot="R90">
+<attribute name="MPN" x="281.94" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="+3V12" gate="G$1" x="281.94" y="175.26"/>
-<instance part="LED1" gate="G$1" x="119.38" y="88.9"/>
-<instance part="R33" gate="G$1" x="119.38" y="76.2" rot="R90"/>
+<instance part="LED1" gate="G$1" x="119.38" y="88.9">
+<attribute name="MPN" x="119.38" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R33" gate="G$1" x="119.38" y="76.2" rot="R90">
+<attribute name="MPN" x="119.38" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND9" gate="1" x="119.38" y="66.04"/>
 <instance part="P+3" gate="1" x="119.38" y="96.52"/>
 <instance part="+3V13" gate="G$1" x="134.62" y="96.52"/>
-<instance part="LED2" gate="G$1" x="134.62" y="88.9"/>
-<instance part="R34" gate="G$1" x="134.62" y="76.2" rot="R90"/>
+<instance part="LED2" gate="G$1" x="134.62" y="88.9">
+<attribute name="MPN" x="134.62" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R34" gate="G$1" x="134.62" y="76.2" rot="R90">
+<attribute name="MPN" x="134.62" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND16" gate="1" x="134.62" y="66.04"/>
 <instance part="+3V14" gate="G$1" x="165.1" y="81.28"/>
-<instance part="LED3" gate="G$1" x="165.1" y="73.66"/>
-<instance part="R35" gate="G$1" x="165.1" y="60.96" rot="R90"/>
-<instance part="C23" gate="G$1" x="347.98" y="160.02"/>
-<instance part="C24" gate="G$1" x="355.6" y="160.02"/>
-<instance part="C25" gate="G$1" x="340.36" y="149.86"/>
-<instance part="C26" gate="G$1" x="345.44" y="149.86"/>
-<instance part="U$4" gate="G$1" x="327.66" y="119.38"/>
+<instance part="LED3" gate="G$1" x="165.1" y="73.66">
+<attribute name="MPN" x="165.1" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R35" gate="G$1" x="165.1" y="60.96" rot="R90">
+<attribute name="MPN" x="165.1" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C23" gate="G$1" x="347.98" y="160.02">
+<attribute name="MPN" x="347.98" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C24" gate="G$1" x="355.6" y="160.02">
+<attribute name="MPN" x="355.6" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C25" gate="G$1" x="340.36" y="149.86">
+<attribute name="MPN" x="340.36" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C26" gate="G$1" x="345.44" y="149.86">
+<attribute name="MPN" x="345.44" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$4" gate="G$1" x="327.66" y="119.38">
+<attribute name="MPN" x="327.66" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND19" gate="1" x="347.98" y="99.06"/>
 <instance part="U$6" gate="G$1" x="347.98" y="127" rot="MR0"/>
 <instance part="+3V15" gate="G$1" x="307.34" y="129.54"/>
-<instance part="C27" gate="G$1" x="355.6" y="119.38"/>
-<instance part="R36" gate="G$1" x="386.08" y="238.76" rot="R90"/>
+<instance part="C27" gate="G$1" x="355.6" y="119.38">
+<attribute name="MPN" x="355.6" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R36" gate="G$1" x="386.08" y="238.76" rot="R90">
+<attribute name="MPN" x="386.08" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND20" gate="1" x="381" y="241.3" rot="MR0"/>
-<instance part="R37" gate="G$1" x="302.26" y="114.3"/>
-<instance part="R38" gate="G$1" x="358.14" y="142.24" rot="R180"/>
-<instance part="C28" gate="G$1" x="309.88" y="109.22"/>
+<instance part="R37" gate="G$1" x="302.26" y="114.3">
+<attribute name="MPN" x="302.26" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R38" gate="G$1" x="358.14" y="142.24" rot="R180">
+<attribute name="MPN" x="358.14" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C28" gate="G$1" x="309.88" y="109.22">
+<attribute name="MPN" x="309.88" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
