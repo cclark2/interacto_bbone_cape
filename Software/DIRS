@@ -1,0 +1,10 @@
+APP_DIRS :=
+APP_DIRS += src
+
+ASSEM_FILES :=
+ASSEM_FILES += src/pru0.p
+ASSEM_FILES += src/pru1.p
+
+BIN_FILES :=
+BIN_FILES += pru0.bin
+BIN_FILES += pru1.bin
