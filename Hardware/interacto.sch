@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -9716,7 +9716,7 @@ Source: www.kingbright.com</description>
 <part name="U$7" library="BoneCapeParts" deviceset="LSM330DLC" device="">
 <attribute name="MPN" value="LSM330DLC"/>
 </part>
-<part name="U$8" library="BoneCapeParts" deviceset="LSM333D" device="">
+<part name="U$8" library="BoneCapeParts" deviceset="LSM333D" device="" value="DNI">
 <attribute name="MPN" value="LSM333D"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -9741,75 +9741,74 @@ Source: www.kingbright.com</description>
 <attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
 </part>
 <part name="FRAME2" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0402" value="33">
+<part name="R6" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R12" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R14" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R15" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R16" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R17" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R18" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R19" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R20" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R21" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R22" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R24" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R25" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R26" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
+</part>
+<part name="R27" library="rcl" deviceset="R-US_" device="R0402" value="100">
 <attribute name="MPN" value="CR0402-JW-330GLF"/>
 </part>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
+<part name="R28" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
 </part>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
+<part name="R29" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
 </part>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R12" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R14" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R15" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R16" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R17" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R18" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R19" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R20" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R21" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R24" library="rcl" deviceset="R-US_" device="R0402" value="33"/>
-<part name="R25" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R26" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R27" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R28" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R29" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R30" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
-</part>
-<part name="R31" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
+<part name="R31" library="rcl" deviceset="R-US_" device="R0402" value="0">
+<attribute name="MPN" value="ERJ-2GE0R00X"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
@@ -9834,19 +9833,19 @@ Source: www.kingbright.com</description>
 </part>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="10u">
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="10u, DNI">
 <attribute name="MPN" value="LMK107BBJ106MALT"/>
 </part>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.1u, DNI">
 <attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
 </part>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1u, DNI">
 <attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
 </part>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="0.22u">
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="0.22u, DNI">
 <attribute name="MPN" value="VJ0603V224MXJPW1BC"/>
 </part>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="4.7u">
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="4.7u, DNI">
 <attribute name="MPN" value="GRM188F51A475ZE20J"/>
 </part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
@@ -9886,8 +9885,8 @@ Source: www.kingbright.com</description>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="R32" library="rcl" deviceset="R-US_" device="R0402" value="10K">
-<attribute name="MPN" value="WR06X1002FTL"/>
+<part name="R32" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
 </part>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0603" value="blue">
@@ -9934,15 +9933,15 @@ Source: www.kingbright.com</description>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
 <attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
 </part>
-<part name="R36" library="rcl" deviceset="R-US_" device="R0402" value="10K">
-<attribute name="MPN" value="WR06X1002FTL"/>
+<part name="R36" library="rcl" deviceset="R-US_" device="R0402" value="50">
+<attribute name="MPN" value="302-49.9-RC"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R37" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
+<part name="R37" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
 </part>
-<part name="R38" library="rcl" deviceset="R-US_" device="R0402" value="33">
-<attribute name="MPN" value="CR0402-JW-330GLF"/>
+<part name="R38" library="rcl" deviceset="R-US_" device="R0402" value="100">
+<attribute name="MPN" value="ERA-6AED101V"/>
 </part>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
 <attribute name="MPN" value="VJ0603V104ZXXCW1BC"/>
@@ -9956,7 +9955,7 @@ Source: www.kingbright.com</description>
 0x55
 0x56
 0x57</text>
-<text x="111.76" y="152.4" size="1.778" layer="97">0x19</text>
+<text x="114.3" y="152.4" size="1.778" layer="97">0x19</text>
 <text x="114.3" y="149.86" size="1.778" layer="97">0x1E</text>
 <text x="177.8" y="134.62" size="1.778" layer="97">0x18</text>
 <text x="177.8" y="137.16" size="1.778" layer="97">0x6B</text>
@@ -10142,116 +10141,111 @@ Source: www.kingbright.com</description>
 <instance part="R6" gate="G$1" x="340.36" y="213.36" smashed="yes">
 <attribute name="MPN" x="340.36" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="213.36" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="213.36" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="213.36" size="1.778" layer="96"/>
 </instance>
 <instance part="R8" gate="G$1" x="340.36" y="210.82" smashed="yes">
 <attribute name="MPN" x="340.36" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="210.82" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="210.82" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="210.82" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="340.36" y="208.28" smashed="yes">
 <attribute name="MPN" x="340.36" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="208.28" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="208.28" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="208.28" size="1.778" layer="96"/>
 </instance>
 <instance part="R11" gate="G$1" x="340.36" y="205.74" smashed="yes">
 <attribute name="MPN" x="340.36" y="205.74" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="205.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="205.74" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="205.74" size="1.778" layer="96"/>
 </instance>
 <instance part="R12" gate="G$1" x="340.36" y="203.2" smashed="yes">
 <attribute name="MPN" x="340.36" y="203.2" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="203.2" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="203.2" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="203.2" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="340.36" y="200.66" smashed="yes">
 <attribute name="MPN" x="340.36" y="200.66" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="200.66" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="200.66" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="200.66" size="1.778" layer="96"/>
 </instance>
 <instance part="R14" gate="G$1" x="340.36" y="198.12" smashed="yes">
 <attribute name="MPN" x="340.36" y="198.12" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="198.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="198.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="198.12" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="340.36" y="195.58" smashed="yes">
 <attribute name="MPN" x="340.36" y="195.58" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="195.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="195.58" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="195.58" size="1.778" layer="96"/>
 </instance>
 <instance part="R16" gate="G$1" x="340.36" y="190.5" smashed="yes">
 <attribute name="MPN" x="340.36" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="190.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="190.5" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="190.5" size="1.778" layer="96"/>
 </instance>
 <instance part="R17" gate="G$1" x="340.36" y="187.96" smashed="yes">
 <attribute name="MPN" x="340.36" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="187.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="187.96" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="187.96" size="1.778" layer="96"/>
 </instance>
-<instance part="R18" gate="G$1" x="340.36" y="185.42" smashed="yes">
-<attribute name="MPN" x="340.36" y="185.42" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="342.9" y="185.42" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="185.42" size="1.778" layer="96"/>
+<instance part="R18" gate="G$1" x="342.9" y="228.6" smashed="yes">
+<attribute name="MPN" x="342.9" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="335.28" y="228.6" size="1.778" layer="96"/>
 </instance>
 <instance part="R19" gate="G$1" x="340.36" y="182.88" smashed="yes">
 <attribute name="MPN" x="340.36" y="182.88" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="342.9" y="182.88" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="182.88" size="1.778" layer="96"/>
+<attribute name="VALUE" x="332.74" y="182.88" size="1.778" layer="96"/>
 </instance>
 <instance part="R20" gate="G$1" x="281.94" y="213.36" smashed="yes">
 <attribute name="MPN" x="281.94" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="213.36" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="213.36" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="213.36" size="1.778" layer="96"/>
 </instance>
 <instance part="R21" gate="G$1" x="281.94" y="210.82" smashed="yes">
 <attribute name="MPN" x="281.94" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="210.82" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="210.82" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="210.82" size="1.778" layer="96"/>
 </instance>
 <instance part="R22" gate="G$1" x="281.94" y="208.28" smashed="yes">
 <attribute name="MPN" x="281.94" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="208.28" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="208.28" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="208.28" size="1.778" layer="96"/>
 </instance>
 <instance part="R23" gate="G$1" x="281.94" y="205.74" smashed="yes">
 <attribute name="MPN" x="281.94" y="205.74" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="205.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="205.74" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="205.74" size="1.778" layer="96"/>
 </instance>
 <instance part="R24" gate="G$1" x="281.94" y="203.2" smashed="yes">
 <attribute name="NAME" x="284.48" y="203.2" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="203.2" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="203.2" size="1.778" layer="96"/>
+<attribute name="MPN" x="281.94" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="281.94" y="200.66" smashed="yes">
 <attribute name="MPN" x="281.94" y="200.66" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="200.66" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="200.66" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="200.66" size="1.778" layer="96"/>
 </instance>
 <instance part="R26" gate="G$1" x="281.94" y="198.12" smashed="yes">
 <attribute name="MPN" x="281.94" y="198.12" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="198.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="198.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="198.12" size="1.778" layer="96"/>
 </instance>
 <instance part="R27" gate="G$1" x="281.94" y="195.58" smashed="yes">
 <attribute name="MPN" x="281.94" y="195.58" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="195.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="195.58" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="195.58" size="1.778" layer="96"/>
 </instance>
 <instance part="R28" gate="G$1" x="281.94" y="190.5" smashed="yes">
 <attribute name="MPN" x="281.94" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="190.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="190.5" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="190.5" size="1.778" layer="96"/>
 </instance>
 <instance part="R29" gate="G$1" x="281.94" y="187.96" smashed="yes">
 <attribute name="MPN" x="281.94" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="284.48" y="187.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="187.96" size="1.778" layer="96"/>
-</instance>
-<instance part="R30" gate="G$1" x="281.94" y="185.42" smashed="yes">
-<attribute name="MPN" x="281.94" y="185.42" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="284.48" y="185.42" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="185.42" size="1.778" layer="96"/>
+<attribute name="VALUE" x="274.32" y="187.96" size="1.778" layer="96"/>
 </instance>
 <instance part="R31" gate="G$1" x="281.94" y="182.88" smashed="yes">
 <attribute name="MPN" x="281.94" y="182.88" size="1.778" layer="96" display="off"/>
@@ -10314,12 +10308,12 @@ Source: www.kingbright.com</description>
 <instance part="C8" gate="G$1" x="271.78" y="58.42" smashed="yes">
 <attribute name="MPN" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="273.304" y="58.801" size="1.778" layer="95"/>
-<attribute name="VALUE" x="273.304" y="53.721" size="1.778" layer="96"/>
+<attribute name="VALUE" x="268.224" y="66.421" size="1.778" layer="96"/>
 </instance>
 <instance part="C9" gate="G$1" x="279.4" y="58.42" smashed="yes">
 <attribute name="MPN" x="279.4" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="280.924" y="58.801" size="1.778" layer="95"/>
-<attribute name="VALUE" x="280.924" y="53.721" size="1.778" layer="96"/>
+<attribute name="VALUE" x="273.304" y="46.101" size="1.778" layer="96"/>
 </instance>
 <instance part="C10" gate="G$1" x="287.02" y="58.42" smashed="yes">
 <attribute name="MPN" x="287.02" y="58.42" size="1.778" layer="96" display="off"/>
@@ -10863,10 +10857,10 @@ Source: www.kingbright.com</description>
 <label x="66.04" y="170.18" size="1.27" layer="97" font="vector" ratio="16" rot="R180"/>
 </segment>
 <segment>
-<pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="185.42" x2="248.92" y2="185.42" width="0.1524" layer="91"/>
-<junction x="248.92" y="185.42"/>
-<label x="251.46" y="185.42" size="1.27" layer="95" ratio="15"/>
+<wire x1="337.82" y1="228.6" x2="307.34" y2="228.6" width="0.1524" layer="91"/>
+<junction x="307.34" y="228.6"/>
+<label x="309.88" y="228.6" size="1.27" layer="95" ratio="15"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GPIO2_25" class="0">
@@ -12273,13 +12267,6 @@ Source: www.kingbright.com</description>
 <wire x1="335.28" y1="187.96" x2="327.66" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="U$13" gate="1" pin="2B3"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="327.66" y1="185.42" x2="335.28" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -12423,10 +12410,8 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="U$3" gate="G$1" pin="RESET"/>
 <wire x1="386.08" y1="220.98" x2="386.08" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="228.6" x2="353.06" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="228.6" x2="353.06" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="228.6" x2="347.98" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="353.06" y1="185.42" x2="345.44" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="386.08" y1="233.68" x2="386.08" y2="228.6" width="0.1524" layer="91"/>
 <junction x="386.08" y="228.6"/>
@@ -12455,13 +12440,6 @@ Source: www.kingbright.com</description>
 <pinref part="U$13" gate="1" pin="2A2"/>
 <pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="187.96" x2="287.02" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="U$13" gate="1" pin="2A3"/>
-<wire x1="287.02" y1="185.42" x2="294.64" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
